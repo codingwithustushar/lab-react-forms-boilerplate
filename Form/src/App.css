@@ -1,0 +1,47 @@
+
+
+.App {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: aqua;
+  border-radius: 1vw;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: navy;
+}
+
+.alert {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+#submit {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#submit:hover {
+  background-color: darkgreen;
+}
